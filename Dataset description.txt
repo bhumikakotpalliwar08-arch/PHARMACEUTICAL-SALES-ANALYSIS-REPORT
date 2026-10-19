@@ -1,0 +1,59 @@
+📁 Dataset Description
+
+This project uses the `salesdaily.csv` dataset, which contains daily pharmaceutical sales records from **January 2014 to October 2019**.
+
+ Dataset Details
+
+- File name: `salesdaily.csv`
+- Total records:2,106 rows
+- Total columns: 13
+- Data type: Daily time-series sales data
+
+### Dataset Columns
+
+| Column | Description |
+|---|---|
+| `datum` | Date of the sales record |
+| `M01AB` | Pharmaceutical drug category |
+| `M01AE` | Pharmaceutical drug category |
+| `N02BA` | Pharmaceutical drug category |
+| `N02BE` | Pharmaceutical drug category |
+| `N05B` | Pharmaceutical drug category |
+| `N05C` | Pharmaceutical drug category |
+| `R03` | Respiratory drug category |
+| `R06` | Pharmaceutical drug category |
+| `Year` | Year of the record |
+| `Month` | Month of the record |
+| `Hour` | Hour-related dataset field |
+| `Weekday Name` | Day of the week |
+
+The drug category columns contain numerical sales values. The dataset includes time-related fields that support analysis by date, month, year, and weekday.
+
+## 📊 Analysis Results
+
+The analysis of the dataset identified the following total sales quantities:
+
+| ATC Drug Category | Total Sales Quantity |
+|---|---:|
+| N02BE | 63,005.40 |
+| N05B | 18,645.74 |
+| R03 | 11,608.82 |
+| M01AB | 10,600.94 |
+| M01AE | 8,204.62 |
+| N02BA | 8,172.21 |
+| R06 | 6,107.82 |
+| N05C | 1,249.96 |
+
+Key finding: N02BE had the highest cumulative sales quantity among the eight drug categories in the dataset.
+
+## 📉 Monthly Respiratory Drug Analysis
+
+The project also analyzes monthly sales for the R03 respiratory drug category. A line chart visualizes the changes in sales throughout the year, helping identify higher- and lower-sales months.
+
+## 🧰 Technology Stack
+
+- Python
+- Pandas
+- Matplotlib
+- CSV dataset processing
+- Exploratory Data Analysis (EDA)
