@@ -1,0 +1,53 @@
+--- PHARMACEUTICAL SALES ANALYSIS REPORT ---
+OUTPUT
+
+1. Total Sales Quantities per ATC Code:
+N02BE    63005.402708
+N05B     18645.737500
+R03      11608.822917
+M01AB    10600.937083
+M01AE     8204.618646
+N02BA     8172.209000
+R06       6107.817500
+N05C      1249.958333
+
+2. Highest Total Sales: N02BE (63005.40 units)
+
+3. Top 3 Drugs in specific periods:
+January 2015:
+N02BE    1044.24
+N05B      463.00
+R03       177.25
+dtype: float64
+
+July 2016:
+N02BE    652.362000
+N05B     240.000000
+M01AB    194.528333
+dtype: float64
+
+September 2017:
+N02BE    863.75
+N05B     223.00
+R03      139.00
+dtype: float64
+
+4. Most sold drug in 2017: N02BE (9258.80 units)
+
+5. Highest Average Daily Sales: N02BE (29.92 units/day)
+
+6. Monthly sales for Respiratory Drugs (R03):
+Month
+1     1264.656250
+2     1165.583333
+3     1170.000000
+4     1038.875000
+5      931.291667
+6      783.000000
+7      550.000000
+8      577.000000
+9      792.416667
+10    1175.000000
+11     934.000000
+12    1227.000000
+
